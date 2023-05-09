@@ -24,35 +24,33 @@
     <main class="container-fluid">
       <div>
         <nav class="navbar bg-body-tertiary">
-          <img class="logo justify-content-start" src="#" alt="logo" />
+          <a href="./index.html"><img class="logo justify-content-start" src="./assets/images/Lyle Brown Logo.png" alt="logo" id="nav-logo" /></a>
           <ul class="nav nav-pills justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html"
-                >Home</a
-              >
+            <li class="nav-item"  >
+              <a class="nav-link" href="./index.html">Home</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" aria-current="page" href="./about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                About
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="./about.html">About</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Biography</a></li>
-                <li><a class="dropdown-item" href="#">Education</a></li>
-                <li><a class="dropdown-item" href="#">Skills</a></li>
-                <li><a class="dropdown-item" href="#">Experience</a></li>
-                <li><a class="dropdown-item" href="#">Hobbie Board</a></li>
+            <li class="nav-item dropdown" id="dropdown" >
+                <a class="nav-link dropdown-toggle active" aria-current="page" href="./about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropbtn">
+                  About
+                </a>
+                <ul class="dropdown-menu" id="dropdown-content" >
+                  <li><a class="dropdown-item" href="./about.html">About</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Biography</a></li>
+                  <li><a class="dropdown-item" href="#">Education</a></li>
+                  <li><a class="dropdown-item" href="#">Skills</a></li>
+                  <li><a class="dropdown-item" href="#">Experience</a></li>
+                  <li><a class="dropdown-item" href="#">Hobbie Board</a></li>
 
-              </ul>
-            </li>
-            <li class="nav-item">
+                </ul>
+              </li>
+            <li class="nav-item" >
               <a class="nav-link" href="./project.html">Project</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" >
               <a class="nav-link" href="./testimonial.html">Testimonial</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" >
               <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
@@ -65,16 +63,63 @@
             <div class="col-md-12">
               <div class="h-100 p-5 bg-body-tertiary border rounded-3">
                 <h4>Biography</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus debitis ducimus exercitationem sit cupiditate maxime aliquam odio, velit molestiae! Est nulla facere repellat sed sequi architecto, officiis nihil laborum accusantium!
-                Alias, libero doloremque veritatis, reiciendis magni vel temporibus facere qui maiores deleniti, voluptates vitae sunt pariatur ratione. Optio nesciunt fuga voluptatum, perferendis, mollitia, debitis dolorem est ullam quibusdam asperiores fugit!
-                Doloremque dignissimos quis earum tenetur consequuntur quisquam minus incidunt? Sit natus ipsam tempore officiis voluptatum distinctio? Doloremque aperiam consequatur culpa! Pariatur excepturi non deleniti molestias fugit consequuntur maiores hic ex.
-                Debitis impedit aliquid praesentium, itaque vitae perspiciatis similique eos doloribus provident accusantium, facere, eveniet alias repudiandae commodi voluptatum sequi dignissimos nam quaerat neque odio non minus fugit voluptate soluta? Delectus!
-                Ab eligendi, inventore quibusdam illum magnam sit, atque assumenda, quis quia esse facilis saepe sapiente itaque tenetur velit incidunt voluptatum rerum! Animi reiciendis pariatur exercitationem odio aspernatur quasi tempore tenetur!</p>
+                <p>jjjg</p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="h-100 p-5 bg-body-tertiary border rounded-3">
                 <h2>Education</h2>
+                <div class="main-timeline">
+                  <!-- Life Choices -->
+                  <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                      <div class="date-outer">
+                        <span class="date">
+                          <span class="date-start">2023-</span>
+                          <span class="date-end">Present</span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="timeline-content">
+                      <h5>Life Choices Coding Academy</h5>
+                      <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, assumenda?</p>
+                    </div>
+                  </div>
+                  <!-- UCT -->
+                  <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                      <div class="date-outer">
+                        <span class="date">
+                          <span class="date-start">2018-</span>
+                          <span class="date-end">2022</span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="timeline-content">
+                      <h5>University of Cape Town</h5>
+                      <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, assumenda?</p>
+                    </div>
+                  </div>
+                  <!-- Mondale -->
+                  <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                      <div class="date-outer">
+                        <span class="date">
+                          <span class="date-start">2013-</span>
+                          <span class="date-end">2017</span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="timeline-content">
+                      <h5>Mondale High School</h5>
+                      <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, assumenda?</p>
+                    </div>
+                  </div>
+
+                </div>
               </div>
             </div>
             <div class="col-md-6">

@@ -25,16 +25,16 @@
       <div>
         <!-- Navigation Bar -->
         <nav class="navbar bg-body-tertiary">
-          <img class="logo justify-content-start" src="#" alt="logo" />
+          <a href="./index.html"><img class="logo justify-content-start" src="./assets/images/Lyle Brown Logo.png" alt="logo" id="nav-logo" /></a>
           <ul class="nav nav-pills justify-content-end">
-            <li class="nav-item">
+            <li class="nav-item"  >
               <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="./about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li class="nav-item dropdown" id="dropdown" >
+                <a class="nav-link dropdown-toggle" href="./about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropbtn">
                   About
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu" id="dropdown-content" >
                   <li><a class="dropdown-item" href="./about.html">About</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Biography</a></li>
@@ -45,13 +45,13 @@
 
                 </ul>
               </li>
-            <li class="nav-item">
+            <li class="nav-item" >
               <a class="nav-link" href="./project.html">Project</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" >
               <a class="nav-link" href="./testimonial.html">Testimonial</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" >
               <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
@@ -60,7 +60,7 @@
 
       <div class="container-fluid">
         <!-- main text -->
-        <div class="card-mb-3 border rounded-3 border black p-4 m-1">
+        <div class="card-mb-3 border rounded-3 border black p-4 m-1 mb-5">
           <div class="row">
             <div class="col-md-4">
               <div class="h-100 p-5 bg-body-tertiary border rounded-3">
@@ -87,19 +87,20 @@
           </div>
         </div>
         <!-- Footer -->
-        <footer>
-          <div class="waves">
-            <div class="wave" id="wave1"></div>
-            <div class="wave" id="wave2"></div>
-            <div class="wave" id="wave3"></div>
-            <div class="wave" id="wave4"></div>
-          </div>
-          <div class="col-md-12 border rounded-3 m-1 p-4">
-            <div class="border rounded-3">
-              <div class="text-center">
-                <p>&copy 2023, Lyle Brown.</p>
-              </div>
+        <footer>          
+          <div id="footer" class="text-center">
+            <div class="waves">
+              <div class="wave" id="wave1"></div>
+              <div class="wave" id="wave2"></div>
+              <div class="wave" id="wave3"></div>
+              <div class="wave" id="wave4"></div>
             </div>
+            <p>Copyright &copy 2023, Lyle Brown 🤠. <br>
+              <a href="#" target="_blank"><img id="icons" src="./assets/icons/linkedin.svg" alt="linkedin"></a>
+              <a href="#" target="_blank"><img id="icons" src="./assets/icons/github.svg" alt="GitHub"></a>
+
+            </p>
+            
           </div>
         </footer>
       </div>
