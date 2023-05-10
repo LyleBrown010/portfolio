@@ -10,10 +10,12 @@
     display: block;
 }
 
-ul{
-    list-style-type: none;
+#myphoto-1{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid !important;
 }
-
 #icon-email{
     width: 20px;
     height: 20px;
@@ -22,6 +24,25 @@ ul{
     width: 20px;
     height: 20px;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+  
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+  
 
 
 #footer{
@@ -92,6 +113,6 @@ ul{
 }
 
 #icons{
-    height: 20px !important;
-    width: 20px !important;
+    height: 40px !important;
+    width: 40px !important;
 }
