@@ -22,32 +22,40 @@
 </head>
 <body>
     <main class="container-fluid bg-body-tertiary">
-        <div>
-            <nav class="navbar bg-body-tertiary ">
-                <img class="logo justify-content-start" src="#" alt="logo">
-                <ul class="nav nav-pills justify-content-end">
-                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          About
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="./about.html">About</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Biography</a></li>
-                          <li><a class="dropdown-item" href="#">Education</a></li>
-                          <li><a class="dropdown-item" href="#">Skills</a></li>
-                          <li><a class="dropdown-item" href="#">Experience</a></li>
-                          <li><a class="dropdown-item" href="#">Hobbie Board</a></li>
-        
-                        </ul>
-                      </li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="./project.html">Project</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./testimonial.html">Testimonial</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>          
-        </div>
+        <header>
+            <!-- Navigation Bar -->
+            <nav class="navbar border rounded-3 text-white ">
+              <a href="./index.html"><img class="logo justify-content-start" src="./assets/images/Lyle Brown Logo.png" alt="logo" id="nav-logo" /></a>
+              <ul class="nav nav-pills justify-content-end">
+                <li class="nav-item"  >
+                  <a class="nav-link text-white" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown" id="dropdown" >
+                    <a class="nav-link dropdown-toggle text-white" href="./about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropbtn">
+                      About
+                    </a>
+                    <ul class="dropdown-menu" id="dropdown-content" >
+                      <li><a class="dropdown-item" href="./about.html">About</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./about.html#biography">Biography</a></li>
+                      <li><a class="dropdown-item" href="./about.html#education">Education</a></li>
+                      <li><a class="dropdown-item" href="./about.html#skills">Skills</a></li>
+                      <li><a class="dropdown-item" href="./about.html#experience">Experience</a></li>
+    
+                    </ul>
+                  </li>
+                <li class="nav-item" >
+                  <a class="nav-link active " aria-current="page" href="./project.html">Project</a>
+                </li>
+                <li class="nav-item" >
+                  <a class="nav-link text-white" href="./testimonial.html">Testimonial</a>
+                </li>
+                <li class="nav-item" >
+                  <a class="nav-link text-white" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+            </nav> 
+          </header>
         <div class="container-fluid">
           <div class="card-mb-3 border rounded-3 border border-primary black p-4 m-1 bd-white">
             <h2 class="text-center">Projects</h2>
@@ -74,16 +82,16 @@
                   </div>
               </div>
           </div>
-          <footer>
-              <div class="col-md-12 border rounded-3 m-1 p-4">
-                  <div class="border rounded-3 ">
-                      <div class="text-center">
-                          <p>
-                              &copy 2023, Lyle Brown.
-                          </p>
-                      </div>
-                  </div>
+          <footer>          
+            <div id="footer" class="text-center">
+              <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
               </div>
+              <p>Copyright &copy 2023, Lyle Brown 🤠. <br></p>
+            </div>
           </footer>
       </div>
     </main>

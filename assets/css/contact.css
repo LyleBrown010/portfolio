@@ -1,14 +1,25 @@
+/* Header */
 #nav-logo{
     width: 150px;
     height: 150px;
     padding: 10px;
     margin-left: 20px;
 }
+nav{
+    background-color: #76adff;
+    color: whitesmoke;
+}
+
+.active{
+    background-color: black !important ;
+}
+
 
 
 #dropdown:hover #dropdown-content{
     display: block;
 }
+
 
 #myphoto-1{
     width: 250px;
