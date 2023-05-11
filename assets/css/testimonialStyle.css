@@ -1,4 +1,6 @@
-
+*{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
 /* Header */
 #nav-logo{
@@ -71,22 +73,9 @@ main{
   position: relative;
   z-index: 1;
 }
-h1,
-h2 {
-  font-family: Poppins, sans-serif;
-}
-h1 {
-  line-height: 1;
-  margin: 0;
-  font-size: 1.7rem;
-}
-h2 {
-  font-size: 1rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  color: dark grey;
-  margin-top: 5px;
-}
+
+
+
 .stars {
   text-align: right;
 }

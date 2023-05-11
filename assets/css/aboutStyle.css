@@ -1,5 +1,20 @@
 *{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#nav-logo{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin-left: 20px;
+}
+nav{
+    background-color: #76adff;
+    color: whitesmoke;
+}
+
+.active{
+    background-color: black !important ;
 }
 #nav-logo{
     width: 150px;

@@ -21,60 +21,48 @@
     <title>About</title>
   </head>
   <body>
-    <main class="container-fluid bg-body-tertiary">
-      <div>
-        <nav class="navbar bg-body-tertiary">
-          <a href="./index.html"
-            ><img
-              class="logo justify-content-start"
-              src="./assets/images/Lyle Brown Logo.png"
-              alt="logo"
-              id="nav-logo"
-          /></a>
+    <main class="container-fluid bg-body-tertiary p-0">
+      <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar border rounded-3 text-white ">
+          <a href="./index.html"><img class="logo justify-content-start" src="./assets/images/Lyle Brown Logo.png" alt="logo" id="nav-logo" /></a>
           <ul class="nav nav-pills justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home</a>
+            <li class="nav-item"  >
+              <a class="nav-link text-white" href="./index.html">Home</a>
             </li>
-            <li class="nav-item dropdown" id="dropdown">
-              <a
-                class="nav-link dropdown-toggle active"
-                aria-current="page"
-                href="./about.html"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                id="dropbtn"
-              >
-                About
-              </a>
-              <ul class="dropdown-menu" id="dropdown-content">
-                <li><a class="dropdown-item" href="./about.html">About</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#biography">Biography</a></li>
-                <li><a class="dropdown-item" href="#education">Education</a></li>
-                <li><a class="dropdown-item" href="#skills">Skills</a></li>
-                <li><a class="dropdown-item" href="#experience">Experience</a></li>
-              </ul>
+            <li class="nav-item dropdown" id="dropdown" >
+                <a class="nav-link dropdown-toggle active" aria-current="page" href="./about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="dropbtn">
+                  About
+                </a>
+                <ul class="dropdown-menu" id="dropdown-content" >
+                  <li><a class="dropdown-item" href="./about.html">About</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./about.html#biography">Biography</a></li>
+                  <li><a class="dropdown-item" href="./about.html#education">Education</a></li>
+                  <li><a class="dropdown-item" href="./about.html#skills">Skills</a></li>
+                  <li><a class="dropdown-item" href="./about.html#experience">Experience</a></li>
+
+                </ul>
+              </li>
+            <li class="nav-item" >
+              <a class="nav-link text-white" href="./project.html">Project</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./project.html">Project</a>
+            <li class="nav-item" >
+              <a class="nav-link text-white" href="./testimonial.html">Testimonial</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./testimonial.html">Testimonial</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact</a>
+            <li class="nav-item" >
+              <a class="nav-link text-white" href="./contact.html">Contact</a>
             </li>
           </ul>
-        </nav>
-      </div>
-      <div class="container-fluid">
+        </nav> 
+      </header>
+      <div class="container-fluid p-0">
         <div class="card-mb-3 border rounded-3 border border-primary p-4 m-1 mb-5 bd-white">
           <h3 class="text-center">About</h3>
           <div class="row">
             <div class="col-md-12" id="biography">
               <div class="h-100 p-5 bg-body-tertiary border border-primary rounded-3 ">
-                <p class="text-center title ">Born in January 2000. Raised in Cape Town, South Africa.</p>
+                <p class="text-center title ">Born 10 January 2000. Raised in Cape Town, South Africa.</p>
                 <p class="text-center fs-2 fw-bolder" >I am Lyle Brown.</p>
                 <p class="text-center">I am self-motivated, a team player with strong organizational and 
                   interpersonal skills. Always looking to learn new skills, take on extra responsibilities, 
@@ -317,13 +305,13 @@
             </div>
             <div class="col-md-4" id="experience">
               <div class="h-100 p-5 bg-body-tertiary border border-primary rounded-3 mt-3">
-                <h2>Experience</h2>
+                <h2 class=" fs-1 fw-bolder ">Experience</h2>
 
                 
-                <p>ICT Education Assistant <br>
-                  Estville Primary School br
-                  February 2023- March 2023<br>
-                  Provided technical support and managed internal ICT systems <br>
+                  <h4 class="fs-4 fw-bold">ICT Education Assistant</h4> 
+                  <h5 class="fs-5">Eastville Primary School</h5>  
+                  <h5>February 2023- March 2023 </h5>
+                  <p class="fs-6">Provided technical support and managed internal ICT systems <br>
                   Reason for leaving: Joined Life Choices Coding Academy</p>
                 <p>Student Front Desk Assistant <br>
                   Department of Student Affairs, University of Cape Town <br>
