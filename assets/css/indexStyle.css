@@ -11,12 +11,7 @@ body{
 
 
 /* Header */
-#nav-logo{
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-    margin-left: 20px;
-}
+
 nav{
     background-color: #76adff;
     color: whitesmoke;
@@ -174,8 +169,13 @@ nav{
     }
 }
 
-#icons{
-    height: 20px !important;
-    width: 20px !important;
-}
 /* footer end  */
+
+@media only screen and (max-width: 300px){
+    *{
+        overflow-x:hidden !important;
+    }
+    #h1{
+        font-size: 12px;
+    }
+}
