@@ -147,7 +147,9 @@ nav{
     }
 }
 
-#icons{
-    height: 20px !important;
-    width: 20px !important;
+
+@media only screen and (max-width: 585px){
+  #h1{
+    font-size: 25px;
+  }
 }

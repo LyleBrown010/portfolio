@@ -84,7 +84,7 @@ nav{
   
   
   #h1 {
-    font-size: 65px;
+    font-size: 60px;
     text-transform: uppercase;
     font-family: "Archivo Black", "Archivo", sans-serif;
     font-weight: normal;
@@ -337,3 +337,17 @@ nav{
     width: 20px !important;
 }
 /* footer end */
+
+@media only screen and (max-width: 400px) {
+    #h1{
+        font-size: 40px !important;
+    }
+    #education{
+        font-size: 10px;
+        border-color: #000000 !important;
+    }
+
+    .main-timeline{
+        left: -40px;
+    }
+}

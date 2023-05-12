@@ -239,8 +239,16 @@ p:first-of-type {
     }
 }
 
-#icons{
-    height: 20px !important;
-    width: 20px !important;
-}
 /* footer end */
+
+@media only screen and (max-width: 657px){
+  #h1{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 658px){
+  .blog-card{
+    width: 90%;
+  }
+}
